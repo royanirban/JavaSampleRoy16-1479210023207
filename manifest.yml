@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 128M
+  instances: 2
+  domain: mybluemix.net
+  name: JavaSampleRoy16
+  host: JavaSampleRoy16
+  disk_quota: 1024M
+  services:
+  - JavaSampleRoy16-cloudantNoSQLDB
+  - Auto-Scaling-ba
